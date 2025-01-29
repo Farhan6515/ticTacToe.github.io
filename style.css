@@ -1,0 +1,68 @@
+body{
+    background-color: #2f3e46;
+    font-size: 40px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color:#EAE0D5;
+}
+#card{
+  
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+   gap:5px;
+   width: max-content;
+   margin: auto;
+}
+
+.textbox{
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color:#cad2c5;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 1px;
+    font-size: 34px;
+    color: black;
+}
+
+#Winner{
+    color: green;
+}
+
+#rset{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black ;
+    background-color:#84a98c;
+    font-size: 24px;
+}
+
+#record{
+   margin-top: 10px;
+   padding-left: 10px;
+}
+
+.r1{
+   
+   margin-right: 10px;
+}
+
+.r2{
+    margin-left: 10px;
+    
+}
+
+#ag{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black ;
+    background-color:#84a98c;
+    font-size: 24px;
+}
